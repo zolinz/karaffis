@@ -47,7 +47,7 @@
         <route id="log-route">
           <from uri="timer:foo?period=5s"/>
             <setBody>
-                <simple>Hello from Camel!</simple>
+                <simple>Hello Zoli!</simple>
             </setBody>
             <log message=">>> ${body} : ${sys.runtime.id}"/>
         </route>
